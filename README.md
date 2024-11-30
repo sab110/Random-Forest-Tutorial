@@ -97,7 +97,7 @@ The target variable represents the species of Iris flowers:
 ### **Step 1: Clone the Repository**
 Clone the repository to your local machine:
 ```bash
-git clone <repository-url>
+git clone https://github.com/sab110/Random-Forest-Tutorial.git
 cd Random-Forest-Tutorial
 
 ```
