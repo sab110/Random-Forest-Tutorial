@@ -2,7 +2,7 @@
 
 ## Overview
 
-This tutorial demonstrates how to implement and optimize a **Random Forest Classifier** using the Iris dataset. It covers all the essential steps, including data exploration, building a baseline model, hyperparameter tuning, analyzing feature importance, and visualizing decision boundaries. The primary goal is to understand the functionality of the Random Forest algorithm and apply it effectively to solve classification problems.
+This tutorial demonstrates how to implement and optimize a **Random Forest Classifier** using the Iris dataset. It covers essential steps, including data exploration, building a baseline model, hyperparameter tuning, analyzing feature importance, and visualizing decision boundaries. The primary goal is to understand the functionality of the Random Forest algorithm and apply it effectively to solve classification problems.
 
 ---
 
@@ -90,33 +90,32 @@ The target variable represents the species of Iris flowers:
 4. **Decision Boundaries**:
    - The model's decision boundaries were well-defined and intuitive, effectively separating classes.
 
-
+---
 
 ## How to Run
 
-### **Step 1: Clone the Repository**
+### Step 1: Clone the Repository
 Clone the repository to your local machine:
 ```bash
 git clone https://github.com/sab110/Random-Forest-Tutorial.git
 cd Random-Forest-Tutorial
-
 ```
 
-### **Step 2: Install Dependencies**
-Install the required libraries using the `requirements.txt` file:
+### Step 2: Install Dependencies
+Install the required Python libraries using the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
 
-### **Step 3: Run the Code**
-Run the Python script:
+### Step 3: Run the Jupyter Notebook
+Launch Jupyter Notebook to execute the code:
 ```bash
-python random_forest_tutorial.py
+jupyter notebook "Random Forest Tutorial.ipynb"
 ```
 
-### **Step 4: Explore the Results**
-The script includes:
-- Model training and evaluation outputs.
+### Step 4: Explore the Results
+The notebook includes:
+- Outputs of model training and evaluation.
 - Visualizations of feature importance and decision boundaries.
 
 ---
@@ -136,7 +135,7 @@ The script includes:
 ```
 project-directory/
 │
-├── random_forest_tutorial.py      # Python script for the tutorial
+├── Random Forest Tutorial.ipynb   # Jupyter Notebook for the tutorial
 ├── requirements.txt               # List of dependencies
 ├── README.md                      # Documentation
 ├── LICENSE                        # License information
@@ -147,9 +146,12 @@ project-directory/
 
 ## Future Work
 
-1. Explore other ensemble methods like **Gradient Boosting** or **XGBoost**.
-2. Perform **feature engineering** to improve results.
-3. Apply the Random Forest algorithm to larger, more complex datasets.
+1. **Explore Advanced Models**:
+   - Implement Gradient Boosting or XGBoost for improved performance.
+2. **Perform Feature Engineering**:
+   - Create new features or transform existing ones to improve results.
+3. **Apply to Larger Datasets**:
+   - Test the Random Forest algorithm on larger, more complex datasets.
 
 ---
 
@@ -162,4 +164,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Author
 
 This project was developed as a hands-on tutorial to demonstrate the power of the Random Forest algorithm in classification tasks. It is beginner-friendly and provides practical insights into implementing and optimizing machine learning models.
-```
+
+--- 
